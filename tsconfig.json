@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "jsx": "react",
+    "allowJs": true,
+    "module": "es6",
+    "target": "es5",
+    "lib": ["es2018", "DOM"],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.jsx",
+    "src/**/*.js"
+  ]
+}

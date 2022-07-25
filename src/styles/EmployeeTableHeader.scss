@@ -1,0 +1,26 @@
+#tableInfoContainer > td, th {
+  border: none;
+}
+
+#recordOperationsContainer > * {
+  text-align: end;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+#recordOperationsContainer > *:last-child {
+  background: var(--code);
+  margin: 0.5rem 0 0.5rem 0.5rem;
+}
+
+#recordOperationsContainer > *:last-child:disabled {
+  background: var(--text-light);
+}
+
+#employeeDataContainer {
+  padding: 0.25rem 0;
+}
+
+#employeeCountContainer {
+  margin: 0;
+}

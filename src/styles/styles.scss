@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  grid-template-columns: 24px 1fr 24px;
+}
+
+header > a > h3 {
+  margin: 2vh 0vw;
+  width: max-content;
+}
+
+header {
+  width: min-content;
+}
+
+table {
+  display: table;
+  margin-top: 0; 
+}
+
+td, th {
+  border: none;
+  padding: 0.25rem 0.75rem;
+}
+
+#directoryImageCell {
+  height: 52px;
+  width: 52px;
+}
+
+strong {
+  color: var(--code);
+}
+
+@media (max-width: 945px) {
+  #directoryImage, #directoryImageCell, #directoryImageHeader {
+    display: none;
+  }
+}
