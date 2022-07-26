@@ -4,7 +4,7 @@ import { MouseEventHandler } from 'react';
 const Button = (props: {
   handleClick: MouseEventHandler<HTMLButtonElement>;
   text: string;
-  disabled: boolean;
+  disabled?: boolean;
 }) => {
   return (
     <button disabled={props.disabled} onClick={props.handleClick}>
